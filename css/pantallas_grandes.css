@@ -1,0 +1,58 @@
+/* CSS Document */
+/*Reglas generales para todos los tamaños*/
+body{
+	margin:0;
+	padding:0;
+	}
+header a.logo{
+	display:block;
+	position:absolute;
+	background-position:0px 0px;
+	background-repeat:no-repeat;
+	}
+
+
+/*Reglas generales para tamaños grandes*/
+header{
+	height:226px;
+	background:url(../images/banner_grande.jpg) no-repeat right 0px;
+	}
+header a.logo{
+	width:150px;
+	height:85px;
+	top:8px;
+	left:25px;
+	background:url(../images/logo_grande.png) no-repeat 0;
+	}
+nav{
+	width:100%;
+	display:block;
+	position:absolute;
+	background-color:#25323A;
+	}	 		
+article{
+	padding:80px 20px 40px 20px;
+	}
+.promo_container{
+	padding: 0 0 15px 20px;
+	}
+.promo_container .promo{
+	width:33%;
+	float:left;
+	background-position:0 3px;
+	}	
+.promo_container .page .content{
+	padding:0 30px 0 70px;
+	}
+nav{
+	top:225px;
+	}
+nav a{
+	margin:12px 0 10px 20px;
+	}
+/*esta es una consulta Media si el tamaño de la pantalla mide menos de 990px pondra un padding a la izquierda*/	
+@media screen and (max-width:990px){
+	footer{
+		padding-left:20px;
+		}
+	} 						

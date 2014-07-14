@@ -1,0 +1,94 @@
+/* CSS Document */
+body{
+	color:#575c7a;
+	line-height:1.5em;/*espacio entre parrafos*/
+	font-family:"kaushanscript regular", cursive, Arial, sans-serif;
+	font-size:14px;
+	background:url(../images/bg.jpg) repeat 0px 0px; 
+	}
+.page{
+	max-width:980px;
+	margin:0 auto;
+	position:relative;
+	background:#fff;
+	}
+h1{
+	color:#76A4D6;
+	margin:0em 0em 0.5em 0em;
+	font-size:2em;
+	font-weight:normal;
+	}
+h2{
+	font-size:1.7em;
+	margin:0em 0em 1em 0em;
+	}
+h3{
+	font-size:1.5em;
+	margin:0em 0em 1em 0em;
+	}
+p{
+	margin:0px 0px 0.75px 0px;
+	}
+a{
+	color:#74A4A6;
+	}
+a:hover{
+	color:#009eff;
+	}
+footer{
+	font-size:0.85em;
+	color:#E2E3E0;
+	padding-top:45px;
+	background:rgba(87,96,107,1.00);
+	padding: 10px 10px 10px 10px;
+	}
+a.cta{
+	text-transform:uppercase;
+	font-size:0.9em;
+	font-weight:bold;
+	text-decoration:none;
+	margin:.5em 0 0 0;
+	padding:0px 12px 0px 0px;
+	background:url(../images/flecha_normales.png) no-repeat right 0px;
+	}
+/*aqui estamos ocupando la tecnica de Sprite en esta tecnica cambiamos de posicion la imagen que ocupamos arriba*/	
+a.cta:hover{
+	background-position: right -45px;
+	color:#BE6A60;
+	}
+.promo h3{
+	font-size:1.1em;
+	margin:0;
+	}
+.promo p{
+	line-height:1.2em;
+	font-size:0.9em;
+	margin-bottom:0.5em;
+	}
+.promo{
+	background-repeat:no-repeat;
+	}
+.promo.uno{
+	background-image:url(../images/promo-1.jpg);	
+	}
+.promo.dos{
+	background-image:url(../images/promo-2.jpg);	
+	}	
+.promo.tres{
+	background-image:url(../images/promo-3.jpg);	
+	}
+nav a{
+	color:#76A4D6;
+	text-transform:uppercase;
+	text-decoration:none;
+	display:inline-block;
+	font-weight:bold;
+	font-size:0.9em;
+	}
+nav a:hover{
+	color:#fff;
+	}
+.clear-fix{
+	clear:both;
+	line-height:1px;
+	}																			
